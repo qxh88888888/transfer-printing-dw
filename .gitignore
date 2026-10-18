@@ -1,0 +1,23 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+
+# ---------- 原始数据与数据库（不上传全量数据）----------
+data/raw/
+*.db
+*.sqlite
+*.sqlite3
+*.pbix
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
